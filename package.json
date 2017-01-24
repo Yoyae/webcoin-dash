@@ -1,7 +1,7 @@
 {
-  "name": "webcoin-bitcoin",
+  "name": "webcoin-dash",
   "version": "3.1.4",
-  "description": "Bitcoin parameters for Webcoin",
+  "description": "Dash parameters for Webcoin",
   "main": "index.js",
   "scripts": {
     "test": "standard index.js src && nyc tape test/index.js | faucet && nyc report",
@@ -12,7 +12,7 @@
     "publish": "npm run source"
   },
   "keywords": [
-    "bitcoin",
+    "dash",
     "webcoin",
     "constants",
     "network",
@@ -21,8 +21,8 @@
   "author": "Matt Bell <mappum@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bitcoin-util": "^2.0.0",
-    "webcoin-params": "^1.0.0"
+    "dash-util": "^2.0.0",
+    "webcoin-params-dash": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.4.5",
@@ -37,10 +37,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mappum/webcoin-bitcoin.git"
+    "url": "git+https://github.com/snogcel/webcoin-dash.git"
   },
   "bugs": {
-    "url": "https://github.com/mappum/webcoin-bitcoin/issues"
+    "url": "https://github.com/snogcel/webcoin-dash/issues"
   },
-  "homepage": "https://github.com/mappum/webcoin-bitcoin#readme"
+  "homepage": "https://github.com/snogcel/webcoin-dash#readme"
 }

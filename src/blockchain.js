@@ -1,6 +1,6 @@
 // blockchain definition
 
-var u = require('bitcoin-util')
+var u = require('dash-util')
 
 // definition of the genesis block's header
 var genesisHeader = {
