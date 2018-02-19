@@ -1,11 +1,11 @@
 module.exports = {
-  messagePrefix: '\x18DarkCoin Signed Message:\n',
+  messagePrefix: '\x18Monoeci Signed Message:\n',
   bip32: {
-    public: 0x02fe52f8,
-    private: 0x02fe52cc
+    public: 0x0488B21E,
+    private: 0x0488ADE4
   },
-  pubKeyHash: 0x4c,
-  scriptHash: 0x10,
-  wif: 0x80,
-  dustThreshold: 5460 // https://github.com/dashpay/bitcore-lib-dash/blob/master/lib/transaction/transaction.js#L66
+  pubKeyHash: 0x32,
+  scriptHash: 0x49,
+  wif: 0x4D,
+  dustThreshold: 5460 // https://github.com/yoyae/bitcore-lib-monoeci/blob/master/lib/transaction/transaction.js#L66
 }

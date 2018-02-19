@@ -1,11 +1,10 @@
 var magic = 0xbd6b0cbf
-var defaultPort = 9999
+var defaultPort = 24157
 
 var dnsSeeds = [
-    'dnsseed.darkcoin.io',
-    'dnsseed.darkcoin.qa',
-    'dnsseed.masternode.io',
-    'dnsseed.dashpay.io'
+    'ariga.monoeci.io',
+    'dorado.monoeci.io',
+    'block.monoeci.io'
 ]
 var webSeeds = []
 

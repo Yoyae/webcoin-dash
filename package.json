@@ -1,7 +1,7 @@
 {
-  "name": "webcoin-dash",
+  "name": "webcoin-monoeci",
   "version": "3.1.4",
-  "description": "Dash parameters for Webcoin",
+  "description": "Monoeci parameters for Webcoin",
   "main": "index.js",
   "scripts": {
     "test": "standard index.js src && nyc tape test/index.js | faucet && nyc report",
@@ -12,7 +12,7 @@
     "publish": "npm run source"
   },
   "keywords": [
-    "dash",
+    "monoeci",
     "webcoin",
     "constants",
     "network",
@@ -21,8 +21,8 @@
   "author": "Matt Bell <mappum@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "dash-util": "^2.0.0",
-    "webcoin-params-dash": "^1.0.0"
+    "monoeci-util": "github:Yoyae/monoeci-util",
+    "webcoin-params-monoeci": "github:Yoyae/webcoin-params-monoeci"
   },
   "devDependencies": {
     "babel-cli": "^6.4.5",
@@ -37,10 +37,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snogcel/webcoin-dash.git"
+    "url": "git+https://github.com/yoyae/webcoin-monoeci.git"
   },
   "bugs": {
-    "url": "https://github.com/snogcel/webcoin-dash/issues"
+    "url": "https://github.com/yoyae/webcoin-monoeci/issues"
   },
-  "homepage": "https://github.com/snogcel/webcoin-dash#readme"
+  "homepage": "https://github.com/yoyae/webcoin-monoeci#readme"
 }

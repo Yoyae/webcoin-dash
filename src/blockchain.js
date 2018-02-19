@@ -1,28 +1,28 @@
 // blockchain definition
 
-var u = require('dash-util')
+var u = require('monoeci-util')
 
 // definition of the genesis block's header
 var genesisHeader = {
   version: 1,
   prevHash: u.nullHash,
-  merkleRoot: u.toHash('e0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7'),
-  time: 1390095618,
+  merkleRoot: u.toHash('369cd6caea22707ca0138a7ec3bda719bdfe0b0a107312c7c873b5073e1b99aa'),
+  time: 1495455495,
   bits: 0x1e0ffff0,
-  nonce: 28917698
+  nonce: 606699
 }
 
 // selected block headers for verifying initial sync
 var checkpoints = [
   {
-    height: 407452,
+    height: 100000,
     header: {
       version: 3,
-      prevHash: u.toHash('0000000000010eedb86810ef7ce941fabc7d2be0c0fa2bf8dfcb5b48f573d15b'),
-      merkleRoot: u.toHash('d0761697a9ec536c444591e0ff4dbcba8c78df0263444a5229db58e600e1359d'),
-      time: 1453463939,
-      bits: 0x1b0f1aee,
-      nonce: 872384581
+      prevHash: u.toHash('00000000000030e3684b9d9b286c7b3448b8abb9a74e2872f7a76d423d661142'),
+      merkleRoot: u.toHash('6360033c89427f0a767c7d9e10753d9b6aff51ee2d779d7a3e9ea568de25c6d3'),
+      time: 1512330429,
+      bits: 0x1a3b9734,
+      nonce: 2013304195
     }
   }
 ]
